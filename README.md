@@ -1,8 +1,11 @@
-# Pandoc::Jats::Ruby
+# pandoc-jats-ruby
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/pandoc/jats/ruby`. To experiment with that code, run `bin/console` for an interactive prompt.
+A Ruby gem that packages the [pandoc-jats](https://github.com/mfenner/pandoc-jats) Lua [custom writer for Pandoc](http://johnmacfarlane.net/pandoc/README.html#custom-writers) generating **JATS XML** - specifically [Journal Publishing Tag Library NISO JATS Version 1.0](http://jats.nlm.nih.gov/publishing/tag-library/1.0/index.html).
 
-TODO: Delete this and the text above, and describe your gem
+## Template
+`pandoc-jats` uses the template `default.jats` - the template uses the same format as other [Pandoc templates](https://github.com/jgm/pandoc-templates) (e.g. if/end conditions, for/end loops, and a dot can be used to select a field of a variable that takes an object),
+but is more complex because of the extensive metadata in JATS. Templates are parsed by Pandoc, not the custom Lua writer.
+
 
 ## Installation
 
@@ -32,7 +35,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/pandoc-jats-ruby. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/mfenner/pandoc-jats-ruby. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
 
 
 ## License
