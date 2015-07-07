@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require File.expand_path("../lib/pandoc-jats-ruby/version.rb", __FILE__)
+require File.expand_path("../lib/pandoc-jats-ruby/version", __FILE__)
 
 Gem::Specification.new do |spec|
   spec.name          = "pandoc-jats-ruby"
-  spec.version       = Pandoc::Jats::Ruby::VERSION
+  spec.version       = PandocJatsRuby::VERSION
   spec.authors       = ["Martin Fenner"]
   spec.email         = ["mf@martinfenner.org"]
 
