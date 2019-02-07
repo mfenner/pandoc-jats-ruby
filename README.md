@@ -1,5 +1,7 @@
 # pandoc-jats-ruby
 
+This gem is obsolete, as of Pandoc 2.0 a JATS writer is [part of the core Pandoc package](https://pandoc.org/releases.html#pandoc-2.0-29-oct-2017).
+
 A Ruby gem that packages the [pandoc-jats](https://github.com/mfenner/pandoc-jats) Lua [custom writer for Pandoc](http://johnmacfarlane.net/pandoc/README.html#custom-writers) generating **JATS XML** - specifically [Journal Publishing Tag Library NISO JATS Version 1.0](http://jats.nlm.nih.gov/publishing/tag-library/1.0/index.html).
 
 ## Template
